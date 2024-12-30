@@ -1,5 +1,5 @@
 from collections import namedtuple
-from utils import parse_map
+from utils.fileparsers import parse_map
 
 Plot = namedtuple("Plot", ["x", "y", "plant_type", "perimeter"])
 

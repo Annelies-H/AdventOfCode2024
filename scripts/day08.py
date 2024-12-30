@@ -1,7 +1,7 @@
 import itertools
 from collections import defaultdict, namedtuple
 
-from utils import parse_map
+from utils.fileparsers import parse_map
 
 Coordinate = namedtuple("Coordinates", ["x", "y"])
 

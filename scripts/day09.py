@@ -1,4 +1,4 @@
-from utils import parse_string
+from utils.fileparsers import parse_string
 
 def file_blocks_from_map(disk_map: str) -> tuple[list[int, str], int]:
     file_blocks = []

@@ -1,6 +1,6 @@
 from collections import namedtuple
 
-from utils import parse_int_map
+from utils.fileparsers import parse_int_map
 
 Coordinate = namedtuple("Coordinates", ["x", "y"])
 
