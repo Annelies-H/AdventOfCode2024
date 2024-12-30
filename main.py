@@ -1,5 +1,6 @@
 # This is a sample Python script.
-from scripts import day01, day03, day02, day04, day05, day06, day07, day08, day09, day10, day11, day12, day13
+from scripts import day01, day03, day02, day04, day05, day06, day07, day08, day09, day10, day11, day12
+from scripts import day13, day14, day15
 
 
 # Press Shift+F10 to execute it or replace it with your code.
@@ -38,6 +39,9 @@ if __name__ == '__main__':
     #print("Day 12 part 1: " + str(day12.part_one()))
     #
     #print("Day 13 part 1: " + str(day13.part_one()))
-    print("Day 13 part 1: " + str(day13.part_two()))
+    #print("Day 13 part 2: " + str(day13.part_two()))
+    #print("Day 14 part 1: " + str(day14.part_one()))
+    #
+    print("Day 15 part 1: " + str(day15.part_one()))
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
